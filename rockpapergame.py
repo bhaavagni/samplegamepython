@@ -18,8 +18,6 @@ while True:
     else:
         print("User selected",list[userinput-1],"and Won!")
 
-    playagain = input("Play again? (y/n): ")
+    playagain = input("Play again??? (y/n): ")
     if playagain.lower() != "y":
         break
-
-
